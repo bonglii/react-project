@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 35px;
+  padding: 0;
+}
+
+.box{
+  border: 3px solid black;
+  font: bold;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font: bold;
+  font-size: 1.2rem;
+}
+
+.boxList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height:120px;
+}
